@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        header{
+            position:sticky;
+            top:0px;
+            background-color: rgb(249, 249, 249);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .main {
+
+
+
+            text-align: center;
+
+            display: flex;
+            flex-wrap: wrap;
+            padding: 5px;
+
+            margin: 50px auto 0 auto;
+            justify-content: center;
+
+        }
+
+        .child {
+
+
+            display: inline-block;
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            vertical-align: top;
+            background: white;
+
+
+        }
+
+        h3 {
+            background-color: rgb(254, 254, 254);
+        }
+
+        p {
+            background-color: rgb(254, 254, 254);
+
+        }
+
+        #head {
+            display: inline;
+            text-align: center;
+            padding: 0px;
+            margin-top: 30px;
+            
+
+        }
+
+        #chef {
+            margin-top: 100px;
+            text-align: center;
+
+            margin-bottom: 50px;
+        }
+
+        .h1 {
+            display: inline-block;
+            justify-content: column;
+            margin-bottom: 50px;
+
+        }
+
+        #img {
+            text-align: center;
+            vertical-align: top;
+            justify-content: column;
+
+        }
+
+        .chefmatter {
+            text-align: center;
+            margin-bottom: 100px;
+            padding-left: 250px;
+            padding-right: 250px;
+
+        }
+
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            padding: 25px;
+            background-color: rgb(251, 250, 250);
+            margin-left: 250px;
+            margin-right: 250px;
+
+        }
+
+        .foot {
+            text-align: left;
+            width: 300px;
+            box-sizing: border-box;
+            margin: 5px;
+            padding: 10px;
+            align-items: center;
+        }
+
+
+
+
+        .f1 {
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0px;
+            display: flex;
+            margin: 10px;
+            margin-top: 0px;
+
+
+
+        }
+
+        .f2 {
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0px;
+            display: flex;
+            margin: 10px;
+            margin-bottom: 10px;
+            margin-top: 0px;
+        }
+
+        .f2 img {
+            align-items: left;
+            margin-bottom: 10px;
+            width: 50px;
+            height: 50px;
+
+        }
+
+        .f1 img {
+            align-items: left;
+            width: 50px;
+            height: 50px;
+
+        }
+
+
+        .f11 {
+            padding-left: 10px;
+            justify-content: center;
+            text-align: left;
+            flex: 1;
+
+        }
+
+        .f0 {
+            text-align: center;
+            padding: -10px;
+            margin: 0px;
+        }
+
+        .tag1 {
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+            font-size: 13px;
+            border-radius: 3px;
+        }
+
+        .tag {
+            background-color: rgb(92, 91, 91);
+            color: white;
+            padding: 5px 10px;
+            font-size: 13px;
+            border-radius: 3px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="margin-left:10px">
+        <h1 id="head">=</h1></div>
+        <div><h1 id="head">MY FOOD</h1></div>
+        <div style="margin-right:10px"><h2 id="head">Menu</h2></div>
+    </header>
+    <!-- main container -->
+    <div class="main">
+        <!-- first child -->
+        <div class="child">
+            <img src="./sandwich (1).jpg" style="width:100%"><br><br>
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3><br>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.
+            </p>
+        </div>
+        <!-- second child -->
+        <div class="child">
+            <img src="./steak.jpg" style="width:100%"><br><br>
+            <h3>Let Me Tell You About This Steak</h3><br>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+        </div>
+        <!-- third child -->
+        <div class="child">
+            <img src="./cherries.jpg" style="width:100%"><br><br>
+            <h3>Cherries, interrupted</h3><br>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                What else?</p>
+        </div>
+        <!-- fourth child -->
+        <div class="child">
+            <img src="./wine.jpg" style="width:100%"><br><br>
+            <h3>Once Again, Robust Wine and Vegetable Pasta
+            </h3><br>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+            </p>
+        </div>
+
+    </div>
+    <!-- 2nd main container -->
+    <div class="main">
+        <!-- first child -->
+        <div class="child">
+            <img src="./popsicle.jpg" style="width:100%"><br><br>
+            <h3>All I Need Is a Popsicle</h3><br>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+            </p>
+        </div>
+        <!-- second child -->
+        <div class="child">
+            <img src="./salmon.jpg" style="width:100%"><br><br>
+            <h3>Salmon For Your Skin
+            </h3><br>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+        </div>
+        <!-- third child -->
+        <div class="child">
+            <img src="./sandwich.jpg" style="width:100%"><br><br>
+            <h3>The Perfect Sandwich, A Real Classic
+            </h3><br>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <!-- fourth child -->
+        <div class="child">
+            <img src="./croissant.jpg" style="width:100%"><br><br>
+            <h3>Le French
+            </h3><br>
+            <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+
+
+            </p>
+        </div>
+
+    </div>
+    <div id="chef">
+        <h2 class="h1">About Me, The Food Man</h2><br>
+        <img src="./chef.jpg" id="img">
+    </div>
+    <div class="chefmatter">
+        <h2>I am Who I Am!</h2>
+        <br>
+        <h5>With Passion For Real, Good Food</h5>
+        <br>
+        <p id="chefmatterp">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an
+            interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt
+            sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non
+            fringilla.
+            Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
+            gravida diam non fringilla.</p>
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <h3>FOOTER</h3><br>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+            <p>Powered by w3.css</p>
+        </div>
+        <div class="foot">
+            <h3>BLOG POSTS</h3><br><br>
+            <div class="f0">
+                <div class="f2">
+                    <img src="./workshop.jpg">
+                    <div class="f11"><strong>Lorem</strong><br>
+                        <small>Sed mattis nunc</small>
+                    </div>
+                </div>
+                <div class="f1">
+                    <img src="./gondol.jpg">
+                    <div class="f11"><strong>Ipsum</strong><br>
+                        <small>Praes tinci sed</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <h3>POPULAR TAGS</h3>
+
+            <div class="tags">
+                <span class="tag1">Travel</span>
+                <span class="tag">New York</span>
+                <span class="tag">Dinner</span>
+                <span class="tag">Salmon</span>
+                <span class="tag">France</span>
+                <span class="tag">Drinks</span>
+                <span class="tag">Ideas</span>
+                <span class="tag">Flavors</span>
+                <span class="tag">Cuisine</span>
+                <span class="tag">Chicken</span>
+                <span class="tag">Dressing</span>
+                <span class="tag">Fried</span>
+                <span class="tag">Fish</span>
+                <span class="tag">Duck</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
