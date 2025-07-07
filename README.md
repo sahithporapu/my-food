@@ -1,3 +1,4 @@
+HEAD
 # 🍽️ My Food Blog - HTML & CSS Static Website
 
 This is a responsive static food blog website created using HTML and CSS. It showcases various food items with images and descriptions, along with an "About Me" section and a footer containing blog posts and tags.
@@ -65,3 +66,7 @@ This project is a simple food blog layout designed to help you practice:
 ## 📝 License
 
 This project is built for learning purposes only. Feel free to use or modify it for personal use.
+
+# my-food
+using box model
+
